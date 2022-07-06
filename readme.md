@@ -1,5 +1,5 @@
 # Resurrector
-Resurrector helps you to restore your backed-up MySQL Databases to any specified instance.
+Resurrector helps to restore your backed-up MySQL Databases to any specified instance.
 
 ##### Pip
 You can install this package from pip by running the following command :
@@ -17,7 +17,7 @@ pip install resurrector
 - Automatic decompression
 
 #### Good to know
-Depending on your MySql instance settings (such as user permissions or global variable specifications) you may need
+Depending on your MySQL instance settings (such as user permissions or global variable specifications) you may need
 to deal with input parameters of the Ressurector (see below).
 
 #### Parameters
