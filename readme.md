@@ -61,7 +61,7 @@ resurrector.resurrect(source='files/2022-07-06',
 Feel free to contribute on development, testing or eventual bug reporting.
 
 ### Support
-For general questions about Marwan - Resurrector, tweet at @rexshijaku or write me an email on rexhepshijaku@gmail.com.
+For general questions about the Resurrector, tweet at @rexshijaku or write me an email on rexhepshijaku@gmail.com.
 
 ### Author
 ##### Rexhep Shijaku
