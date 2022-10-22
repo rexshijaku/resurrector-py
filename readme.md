@@ -12,9 +12,8 @@ pip install resurrector
 - Restore multiple databases at once
 - No need o know CLI commands to treat backup files
 - No need to know an OS to handle this process
-- You can specify which databases should be restored and exclude dbs which are should not.
+- You can specify which databases should be restored and exclude those which should not.
 - You can restore only missing databases in the instance (no need to treat the existing ones)
-- Automatic decompression
 
 #### Good to know
 Depending on your MySQL instance settings (such as user permissions or global variable specifications) you may need
@@ -40,8 +39,7 @@ debug | Debug the process on console | boolean | False
 
 ### How it works
 Resurrector reads a folder (either as zipped or not) and searches for .gz files in it, these must contain .sql files which were
-backed up in your servers either automatically or manually. After connecting to the given database instance it creates these databases by
-and "fills" them one by one (executes the whole .sql file (query) on each respective database).
+backed up in your servers either automatically or manually. After connecting to the given database instance it creates these databases and "fills" them one by one (executes the whole .sql file (query) on their respective databases).
 
 ### Simple usage
 
