@@ -1,6 +1,10 @@
 # Resurrector
 Resurrector helps to restore your backed-up MySQL Databases to any specified instance.
 
+## Support
+
+<a href="https://www.buymeacoffee.com/rexshijaku" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="50" width="180"></a>
+
 ##### Pip
 You can install this package from pip by running the following command :
 ```html
